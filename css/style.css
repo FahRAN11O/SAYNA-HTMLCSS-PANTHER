@@ -24,7 +24,7 @@ header{
 
 
 .traits{
-    position: absolute;
+    position: fixed;
     display: flex;
     margin-left: 2.5vw;
 }
@@ -94,7 +94,7 @@ header{
 .personnages{
     display: flex;
     width: 80vw;
-    margin-left: 9%;
+    margin-left: 9vw;
     padding-left: 20px;
     background-color: #021740;
 
@@ -103,7 +103,7 @@ header{
     display: flex;
 }
 .personnages span div{
-    width: 18vw;
+    width: 17vw;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
@@ -116,4 +116,63 @@ header{
 
 .section-1{
     display: flex;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.text{
+}
+
+.text div{
+    text-align: justify;
+}
+
+.img-profile{
+    color: black;
+    text-align: center;
+    margin-bottom: -40vh;
+}
+
+.img-profile img{
+    width: 250px;
+}
+aside{
+    margin-left: 50px;
+}
+.description{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 40vh;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.btn-aside{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-aside p{
+    background-color:#3D2DA6 ;
+    margin-right: 20px;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.btn-aside p a{
+    color: white;
+}
+
+.text-description{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: left;
+    
 }
