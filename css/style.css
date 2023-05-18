@@ -25,8 +25,8 @@
 
 body{
     margin: 0%;
-    background: linear-gradient(to right, black, #021740);
-    background-repeat: repeat-y;
+    /*background: linear-gradient(to right, black, #021740);*/
+    background: url(../illustration/All_pages/arrière_plan.png);
     background-size: cover;
     color: white;
 }
@@ -171,10 +171,12 @@ header{
     margin-right: 10vw;
 }
 
-
-
 .text div{
     text-align: justify;
+}
+
+.text{
+    margin-right: 10vw;
 }
 
 .img-profile{
@@ -182,15 +184,13 @@ header{
     font-weight: bold;
     font-size: 22px;
     text-align: center;
-    margin-bottom: -42vh;
+    margin-bottom: -38vh;
 }
 
 .img-profile img{
     width: 250px;
 }
-aside{
-    margin-left: 50px;
-}
+
 .description{
     color: #07338C;
     width: 20vw;
@@ -204,9 +204,11 @@ aside{
     padding-right: 25px;
     text-align: left;
 }
+
 aside , input, textarea{
     font-family: 'Cantarell regular';
 }
+
 .btn-aside{
     display: flex;
     justify-content: center;
@@ -281,4 +283,38 @@ aside , input, textarea{
     background-color: white;
     font-size: large;
     font-weight: bolder;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    background: url(../illustration/All_pages/back_footer.png);
+    background-size: cover;
+}
+
+.saynaxmarvel img{
+    position: absolute;
+}
+
+footer div{
+    margin-right: 10vw;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.media div{
+    margin-right: 20vw;
+}
+
+.footer-link ul{
+    display: flex;
+    text-align: left;
+}
+
+.footer-link ul li{
+    margin-right: 40px;
 }
