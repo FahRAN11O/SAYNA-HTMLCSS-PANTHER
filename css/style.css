@@ -41,6 +41,7 @@ h2{
 }
 
 
+
 a{
     text-decoration: none;
 }
@@ -176,7 +177,12 @@ header{
 }
 
 .text{
-    margin-right: 10vw;
+    padding-right: 0%;
+    
+}
+
+aside{
+    justify-content: center;
 }
 
 .img-profile{
@@ -252,13 +258,14 @@ aside , input, textarea{
 }
 
 .form-blanc{
+    display: block;
     font-family: 'Cantarell regular';
     color: black;
     border-radius: 22%;
     background: linear-gradient(to bottom, rgba(2555,255,255), rgba(255,255,255, 0));
     text-align: center;
     margin-top: 10vh;
-    padding: 10vh;
+    padding: 10vh 5vh;
     width: 55vw;
     height: auto;
 }
@@ -273,6 +280,16 @@ aside , input, textarea{
     height: auto;
 }
 
+.form-blanc h4{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.h3-form{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
 
 .form-blanc input{
     height: 60px;
@@ -293,8 +310,11 @@ footer{
     background-size: cover;
 }
 
-.saynaxmarvel img{
-    position: absolute;
+.saynaxmarvel {
+    padding: 5vw;
+    width: auto;
+    background: url(../illustration/All_pages/footer1.png) no-repeat;
+    background-size: cover;
 }
 
 footer div{
