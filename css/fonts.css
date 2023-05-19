@@ -22,3 +22,7 @@
     font-family: 'Cantarell italic';
     src: url(../font/Cantarell-Italic.ttf);
 }
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url(../font/WakandaForever-Regular.ttf);
+}
