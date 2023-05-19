@@ -126,7 +126,8 @@ header{
 .text-header p, 
 #voir-plus, 
 .text div p,
-.personnages{
+.personnages,
+.header-corps-wakanda div p{
     color: white;
     font-family: 'Cantarell regular';
 }
@@ -337,4 +338,25 @@ footer div{
 
 .footer-link ul li{
     margin-right: 40px;
+}
+
+
+/*WAKANDA STYLES*/
+.header-corps-wakanda{
+    width: 100%;
+    height: 90vh;
+    background: url(../illustration/Wakanda/Pantherwakanda1.png);
+    background-repeat: no-repeat;
+}
+
+.header-corps-wakanda div{
+    padding-top: 46vh;
+    padding-left: 10vw;
+    width: 30vw;
+    text-align: justify;
+}
+
+.titre-wakanda{
+    font-family: 'Byeno';
+
 }
