@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "Panthera";
+    src: url(../font/PantheraRegular-MVZ9J.ttf);
+}
+@font-face{
+    font-family: 'Byeno';
+    src: url(../font/BEYNO.otf);
+}
+@font-face {
+    font-family: 'Cantarell bold';
+    src: url(../font/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: 'Cantarell boldItalic';
+    src: url(../font/Cantarell-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Cantarell regular';
+    src: url(../font/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'Cantarell italic';
+    src: url(../font/Cantarell-Italic.ttf);
+}
