@@ -19,6 +19,11 @@ h2{
     color: #9E91B7;
 }
 
+.titre-wakanda{
+    font-weight: lighter;
+    color: #9E91B7;
+}
+
 
 
 a{
@@ -106,7 +111,8 @@ header{
 #voir-plus, 
 .text div p,
 .personnages,
-.header-corps-wakanda div p{
+.header-corps-wakanda div p,
+.wakanda-section div div{
     color: white;
     font-family: 'Cantarell regular';
 }
@@ -321,24 +327,87 @@ footer div{
 
 
 /*WAKANDA STYLES*/
-.header-corps-wakanda{
-    background-image: url(../illustration/Wakanda/Pantherwakanda1.png);
-    background-repeat: no-repeat;
+
+.body-wakanda{
+    background-color:radial-gradient(126.67% 350.28% at -21.35% 0%,
+    #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
+    rgba(2, 23, 64, 0) 100%)  ;
 }
 
-.header-corps-wakanda div{
-    margin-left: 10vw;
-    padding-top: 50vh;
-    width: 30vw;
+.header-corps-wakanda{
+    background-image: url(../illustration/Wakanda/Pantherwakanda1-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wakanda-text-haut{
+    padding-top: 25vh;
+    padding-left: 5%;
+    height: 80vh;
+    width: 50vw;
     text-align: justify;
 }
 
+.wakanda-text-haut h2,
+.wakanda-text-haut p{
+    width: 30vw;
+}
+
+
 .titre-wakanda{
     font-family: 'Byeno';
-
 }
 
 .header-corps-wakanda div h2{
     font-family: 'Wakanda forever';
     font-size: 40px;
 }
+
+.img-absolute-wakanda{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.wakanda-section{
+    background: url(../illustration/Wakanda/Pantherwakanda2.png) no-repeat;
+    background-size: 100vw; 
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 60px;
+}
+
+.wakanda-section div{
+    text-align: justify;
+    width: 35vw;
+}
+
+.wakanda-section div div h2{
+    margin-top: 60px;
+}
+
+.wakanda-video-links{
+    width: 100px;
+    text-align: center;
+    background-color: #3D2DA6;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 0;
+    padding-bottom: 117px;
+
+}
+
+.wakanda-video-links p a{
+    color: white;
+}
+
+.wakanda-img-droite img{
+    width: 35vw;
+}
+
+
+
