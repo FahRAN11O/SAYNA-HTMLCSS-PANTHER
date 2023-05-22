@@ -373,7 +373,7 @@ footer div{
 .wakanda-section{
     background: url(../illustration/Wakanda/Pantherwakanda2.png) no-repeat;
     background-size: 100vw; 
-    opacity:0.7;
+    opacity:0.9;
     display: flex;
     justify-content: space-around;
     padding-left: 10vw;
@@ -409,5 +409,49 @@ footer div{
     width: 35vw;
 }
 
+/*Styles Enigme*/
+.img-enigme img{
+    width: 60vw;
+}
+
+.text-header-enigme{
+    text-align: justify;
+    padding-right: 10vw;
+    margin-top: 20vh;
+}
+
+.text-header-enigme div h2{
+    font-size: 60px;
+}
+
+.img-decoration-enigme{
+    position: absolute;
+    padding-right: 10vw;
+}
+
+.paragraphe-header-enigme{
+    margin-top: 20vh;
+    background-size: 100% 100%;
+    padding-left: 26%;
+    text-align: justify;
+    width: 20vw;
+}
 
 
+
+
+.alaphabet-paragraphe-centre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alphabet{
+    width: 40vw ;
+}
+
+.alphabet-list ul{
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+
+}
