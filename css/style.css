@@ -1,40 +1,37 @@
-
-
-
-
-body{
+body {
     margin: 0%;
     /*background: linear-gradient(to right, black, #021740);*/
-    background: url(../illustration/All_pages/arrière_plan.png);
+    background: url(../illustration/All_pages/arrière_plan.png) no-repeat;
     background-size: cover;
     color: white;
 }
 
-h1{
+h1 {
     font-family: 'Panthera';
     font-size: 55px;
 }
-h2{
+
+h2 {
     font-family: 'Byeno';
     color: #9E91B7;
 }
 
-.titre-wakanda{
+.titre-wakanda {
     font-weight: lighter;
     color: #9E91B7;
 }
 
 
 
-a{
+a {
     text-decoration: none;
 }
 
-header{
+header {
     width: 100%;
 }
 
-.element-haut{
+.element-haut {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -43,91 +40,93 @@ header{
 }
 
 
-.traits{
+.traits {
     position: fixed;
     display: flex;
     margin-left: 2.5vw;
 }
 
-.traits div{
+.traits div {
     margin-right: 20px;
 }
-.trait-1{
+
+.trait-1 {
     border-left: 3px solid #9E91B7;
     height: 58vh;
 }
 
-.social-media{
+.social-media {
     align-content: center;
 }
 
-.trait-2{
+.trait-2 {
     border-left: 3px solid #9E91B7;
     height: 40vh;
 }
 
-.list-trait ul{
+.list-trait ul {
     list-style-type: none;
     padding-left: 0;
     margin-left: -10px;
 }
 
-.list-trait ul li{
+.list-trait ul li {
     margin-bottom: 10px;
 }
 
-.ul-haut{
+.ul-haut {
     font-family: 'Byeno';
     font-size: 18px;
     display: flex;
     list-style-type: none;
 }
 
-.ul-haut li a{
+.ul-haut li a {
     color: white;
 }
 
-.ul-haut li{
+.ul-haut li {
     margin-right: 50px;
 }
 
-.header-corps{
+.header-corps {
     margin: 0;
     display: flex;
     width: 100%;
 }
 
-.text-header{
+.text-header {
     width: 50vw;
     margin-top: 15vh;
     margin-left: 130px;
     margin-right: -5vw;
     text-align: justify;
-    color: #9E91B7 ;
+    color: #9E91B7;
 }
 
 
-.text-header p, 
-#voir-plus, 
+.text-header p,
+#voir-plus,
 .text div p,
 .personnages,
 .header-corps-wakanda div p,
-.wakanda-section div div{
+.wakanda-section div div {
     color: white;
     font-family: 'Cantarell regular';
 }
-#voir-plus{
+
+#voir-plus {
     text-decoration: underline;
 }
 
 
-.img-cover img{
-    margin:0;
+.img-cover img {
+    margin: 0;
     width: 65vw;
 }
 
 
-.personnages{
+.personnages {
     display: flex;
     justify-content: flex-end;
     /*width: 80vw;*/
@@ -136,42 +135,45 @@ header{
     background-color: #021740;
 
 }
-.personnages span{
+
+.personnages span {
     display: flex;
 }
-.personnages span div{
+
+.personnages span div {
     width: 17vw;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
 }
-.personnages span img{
+
+.personnages span img {
     width: 16vw;
     height: 40vh;
 }
 
 
-.section-1{
+.section-1 {
     display: flex;
     margin-top: 15vh;
     margin-left: 10vw;
     margin-right: 10vw;
 }
 
-.text div{
+.text div {
     text-align: justify;
 }
 
-.text{
+.text {
     padding-right: 0%;
-    
+
 }
 
-aside{
+aside {
     justify-content: center;
 }
 
-.img-profile{
+.img-profile {
     color: black;
     font-weight: bold;
     font-size: 22px;
@@ -179,11 +181,11 @@ aside{
     margin-bottom: -38vh;
 }
 
-.img-profile img{
+.img-profile img {
     width: 250px;
 }
 
-.description{
+.description {
     color: #07338C;
     width: 20vw;
     background-color: white;
@@ -197,58 +199,61 @@ aside{
     text-align: left;
 }
 
-aside , input, textarea{
+aside,
+input,
+textarea {
     font-family: 'Cantarell regular';
 }
 
-.btn-aside{
+.btn-aside {
     display: flex;
     justify-content: center;
 }
 
-.btn-aside p{
-    background-color:#3D2DA6 ;
+.btn-aside p {
+    background-color: #3D2DA6;
     margin-right: 20px;
     padding: 10px 5px;
     border-radius: 8px;
 }
 
-.btn-aside p a{
+.btn-aside p a {
     color: white;
 }
 
-.text-description{
+.text-description {
     display: flex;
     flex-flow: column;
     justify-content: center;
     text-align: left;
-    
+
 }
-.text-description p span{
+
+.text-description p span {
     font-weight: bold;
 }
 
-.text-desc-petit{
+.text-desc-petit {
     font-weight: lighter;
     font-size: 12px;
 }
 
-.formulaire{
+.formulaire {
     display: flex;
     justify-content: center;
     width: 100vw;
     height: 100vh;
     background: url(../illustration/Accueil/Pantherhome7.png);
     background-size: 100vw 100vh;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
-.form-blanc{
+.form-blanc {
     display: block;
     font-family: 'Cantarell regular';
     color: black;
     border-radius: 22%;
-    background: linear-gradient(to bottom, rgba(2555,255,255), rgba(255,255,255, 0));
+    background: linear-gradient(to bottom, rgba(2555, 255, 255), rgba(255, 255, 255, 0));
     text-align: center;
     margin-top: 10vh;
     padding: 10vh 5vh;
@@ -256,8 +261,8 @@ aside , input, textarea{
     height: auto;
 }
 
-.form-blanc form>*{
-    
+.form-blanc form>* {
+
     border: 1px solid #021740;
     background: none;
     margin-bottom: 20px;
@@ -266,81 +271,85 @@ aside , input, textarea{
     height: auto;
 }
 
-.form-blanc h4{
+.form-blanc h4 {
     margin-bottom: 0%;
     margin-top: 0%;
 }
 
-.h3-form{
+.h3-form {
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 45px;
 }
 
-.form-blanc input{
+.form-blanc input {
     height: 60px;
 }
 
-#submit{
+#submit {
     width: 10vw;
     background-color: white;
     font-size: large;
     font-weight: bolder;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     padding-top: 20vh;
+    padding-bottom: 15vh;
     background: url(../illustration/All_pages/back_footer.png);
-    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#deco-footer{
+    position: absolute;
 }
 
 .saynaxmarvel {
-    padding: 5vw;
-    width: auto;
-    background: url(../illustration/All_pages/footer1.png) no-repeat;
-    background-size: cover;
+    width: 23.3vw;
+    height: 53vh;
+    /*background: url(../illustration/All_pages/footer1.png) no-repeat;
+    background-size: cover;*/
 }
 
-footer div{
+
+footer div {
     margin-right: 10vw;
 }
 
-.media{
+.media {
     display: flex;
     justify-content: center;
 }
 
-.media div{
-    margin-right: 20vw;
-}
 
-.footer-link ul{
+
+.footer-link ul {
     display: flex;
     text-align: left;
 }
 
-.footer-link ul li{
+.footer-link ul li {
     margin-right: 40px;
 }
 
 
 /*WAKANDA STYLES*/
 
-.body-wakanda{
-    background-color:radial-gradient(126.67% 350.28% at -21.35% 0%,
-    #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
-    rgba(2, 23, 64, 0) 100%)  ;
+.body-wakanda {
+    background-color: radial-gradient(126.67% 350.28% at -21.35% 0%,
+            #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
+            rgba(2, 23, 64, 0) 100%);
 }
 
-.header-corps-wakanda{
+.header-corps-wakanda {
     background-image: url(../illustration/Wakanda/Pantherwakanda1-1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.wakanda-text-haut{
+.wakanda-text-haut {
     padding-top: 25vh;
     padding-left: 5%;
     height: 80vh;
@@ -349,31 +358,31 @@ footer div{
 }
 
 .wakanda-text-haut h2,
-.wakanda-text-haut p{
+.wakanda-text-haut p {
     width: 30vw;
 }
 
 
-.titre-wakanda{
+.titre-wakanda {
     font-family: 'Byeno';
 }
 
-.header-corps-wakanda div h2{
+.header-corps-wakanda div h2 {
     font-family: 'Wakanda forever';
     font-size: 40px;
 }
 
-.img-absolute-wakanda{
+.img-absolute-wakanda {
     display: flex;
     justify-content: center;
     position: absolute;
-    
+
 }
 
-.wakanda-section{
+.wakanda-section {
     background: url(../illustration/Wakanda/Pantherwakanda2.png) no-repeat;
-    background-size: 100vw; 
-    opacity:0.9;
+    background-size: 100vw;
+    opacity: 0.9;
     display: flex;
     justify-content: space-around;
     padding-left: 10vw;
@@ -381,16 +390,16 @@ footer div{
     padding-bottom: 60px;
 }
 
-.wakanda-section div{
+.wakanda-section div {
     text-align: justify;
     width: 35vw;
 }
 
-.wakanda-section div div h2{
+.wakanda-section div div h2 {
     margin-top: 60px;
 }
 
-.wakanda-video-links{
+.wakanda-video-links {
     width: 100px;
     text-align: center;
     background-color: #3D2DA6;
@@ -401,57 +410,83 @@ footer div{
 
 }
 
-.wakanda-video-links p a{
+.wakanda-video-links p a {
     color: white;
 }
 
-.wakanda-img-droite img{
+.wakanda-img-droite img {
     width: 35vw;
 }
 
 /*Styles Enigme*/
-.img-enigme img{
+.img-enigme img {
     width: 60vw;
 }
 
-.text-header-enigme{
+.text-header-enigme {
+    width: 30vw;
     text-align: justify;
-    padding-right: 10vw;
     margin-top: 20vh;
 }
 
-.text-header-enigme div h2{
-    font-size: 60px;
+.text-header-enigme div h2 {
+    font-size: 30pt;
 }
 
-.img-decoration-enigme{
+.img-decoration-enigme {
     position: absolute;
-    padding-right: 10vw;
+
 }
 
-.paragraphe-header-enigme{
-    margin-top: 20vh;
+.img-decoration-enigme img,
+.img2-decoration-enigme img {
+    width: 35vw;
+}
+
+.paragraphe-header-enigme {
+    margin-top: 15vh;
     background-size: 100% 100%;
-    padding-left: 26%;
+    padding-left: 20%;
     text-align: justify;
-    width: 20vw;
+    width: 30vw;
+    max-width: 100%;
 }
 
+.section-enigme {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
 
+.citation-enigme {
+    width: 50vw;
+}
 
-
-.alaphabet-paragraphe-centre{
+.alaphabet-paragraphe-centre {
     display: flex;
     justify-content: space-between;
 }
 
-.alphabet{
-    width: 40vw ;
+.alphabet {
+    width: 60vw;
 }
 
-.alphabet-list ul{
+.alphabet-list ul {
     flex-wrap: wrap;
     list-style-type: none;
     display: flex;
+}
 
+.alphabet-list ul li {
+    margin-right: 10px;
+}
+
+
+#waka-font {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#waka-font,
+.alphabet-list ul li span {
+    font-family: 'Wakanda forever';
 }
