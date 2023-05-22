@@ -373,7 +373,7 @@ footer div{
 .wakanda-section{
     background: url(../illustration/Wakanda/Pantherwakanda2.png) no-repeat;
     background-size: 100vw; 
-    z-index: 2;
+    opacity:0.7;
     display: flex;
     justify-content: space-around;
     padding-left: 10vw;
