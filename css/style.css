@@ -73,6 +73,9 @@ header {
 .list-trait ul li {
     margin-bottom: 10px;
 }
+.list-trait ul li a img:hover {
+    filter:brightness(300%);
+}
 
 .ul-haut {
     font-family: 'Byeno';
@@ -85,8 +88,19 @@ header {
     color: white;
 }
 
+.ul-haut li a:active,.ul-haut li a:focus{
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
 .ul-haut li {
     margin-right: 50px;
+    transition: 0.4s;
+}
+
+.ul-haut li:hover{
+    text-decoration: underline 2px;
+    transition: 0.4s;
 }
 
 .header-corps {
@@ -292,6 +306,11 @@ textarea {
     font-size: large;
     font-weight: bolder;
 }
+
+#submit:hover{
+    box-shadow: 0px 0px 10px 5px #9E91B7;
+    transition: 0.4s;
+}   
 
 footer {
     display: flex;
