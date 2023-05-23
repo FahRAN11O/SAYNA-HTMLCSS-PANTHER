@@ -3,17 +3,19 @@ body {
     /*background: linear-gradient(to right, black, #021740);*/
     background: url(../illustration/All_pages/arrière_plan.png) no-repeat;
     background-size: cover;
+    overflow-x: hidden;
     color: white;
 }
 
 h1 {
     font-family: 'Panthera';
-    font-size: 55px;
+    font-size: 3vw;
 }
 
 h2 {
     font-family: 'Byeno';
     color: #9E91B7;
+    font-size: 2vw;
 }
 
 .titre-wakanda {
@@ -34,7 +36,7 @@ header {
 .element-haut {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 3vh;
     padding-left: 7vw;
     padding-right: 7vw;
 }
@@ -79,8 +81,9 @@ header {
 
 .ul-haut {
     font-family: 'Byeno';
-    font-size: 18px;
+    font-size: 1.2vw;
     display: flex;
+    justify-content: center;
     list-style-type: none;
 }
 
@@ -94,7 +97,7 @@ header {
 }
 
 .ul-haut li {
-    margin-right: 50px;
+    margin-right: 20%;
     transition: 0.4s;
 }
 
@@ -104,16 +107,15 @@ header {
 }
 
 .header-corps {
-    margin: 0;
+    margin: 0 auto 5% 0;
+    padding-left: 10vw;
     display: flex;
     width: 100%;
 }
 
 .text-header {
     width: 50vw;
-    margin-top: 15vh;
-    margin-left: 130px;
-    margin-right: -5vw;
+    margin: 5% -5vw auto auto ;
     text-align: justify;
     color: #9E91B7;
 }
@@ -127,6 +129,7 @@ header {
 .wakanda-section div div {
     color: white;
     font-family: 'Cantarell regular';
+    font-size: 1.2vw;
 }
 
 #voir-plus {
@@ -139,39 +142,48 @@ header {
     width: 65vw;
 }
 
+.section-personnage{
+    height: 80%;
+   padding-left: 5vw;
+}
 
 .personnages {
-    display: flex;
-    justify-content: flex-end;
-    /*width: 80vw;*/
-    margin-left: 7vw;
-    padding-left: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5vw;
     background-color: #021740;
 
 }
 
 .personnages span {
+    width: 100%;
     display: flex;
 }
 
 .personnages span div {
+    height: 80%;
     width: 17vw;
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.personnages span div p{
+    font-size: 1vw;
+    width: 17vw;
+    overflow-y: hidden;
 }
 
-.personnages span img {
-    width: 16vw;
-    height: 40vh;
+.personnages span div h2{
+    font-size: 2vw;
 }
-
 
 .section-1 {
     display: flex;
+    gap: 5%;
+    height: 100%;
     margin-top: 15vh;
     margin-left: 10vw;
-    margin-right: 10vw;
 }
 
 .text div {
@@ -179,38 +191,57 @@ header {
 }
 
 .text {
-    padding-right: 0%;
+    width:60%;
 
 }
 
 aside {
     justify-content: center;
+    
+    width:35%;
+
+}
+
+.aside-haut{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
 }
 
 .img-profile {
+    height: auto;
+    justify-content: center;
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 0.9vw;
+    margin-bottom: -60%;
     text-align: center;
-    margin-bottom: -38vh;
+    z-index: 2;
 }
 
 .img-profile img {
-    width: 250px;
+    justify-content: center;
+    width: 50%;
+    height: auto;
 }
 
 .description {
+    align-self: center;
+    font-size: 0.7vw;
     color: #07338C;
-    width: 20vw;
+    width: 65%;
     background-color: white;
     border-radius: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 40vh;
+    padding-top: 60%;
     padding-bottom: 50px;
     padding-left: 25px;
     padding-right: 25px;
     text-align: left;
+}
+
+.img-bas-aside img{
+    width: 100%;
 }
 
 aside,
@@ -226,8 +257,9 @@ textarea {
 
 .btn-aside p {
     background-color: #3D2DA6;
-    margin-right: 20px;
-    padding: 10px 5px;
+    margin-right: 5%;
+    text-align: center;
+    padding: 10px 10px;
     border-radius: 8px;
 }
 
@@ -249,16 +281,16 @@ textarea {
 
 .text-desc-petit {
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 0.4vw;
 }
 
 .formulaire {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
     background: url(../illustration/Accueil/Pantherhome7.png);
-    background-size: 100vw 100vh;
+    background-size: 100vw;
+    padding-top: 10%;
+    padding-bottom: 2.5%;
     background-repeat: no-repeat;
 }
 
@@ -270,41 +302,46 @@ textarea {
     background: linear-gradient(to bottom, rgba(2555, 255, 255), rgba(255, 255, 255, 0));
     text-align: center;
     margin-top: 10vh;
-    padding: 10vh 5vh;
-    width: 55vw;
-    height: auto;
+    padding: 5%;
+    width: 60%;
 }
 
 .form-blanc form>* {
 
     border: 1px solid #021740;
     background: none;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     border-radius: 30px;
     width: 40vw;
-    height: auto;
+}
+
+.form-blanc form textarea{
+    height: 10vh;
+
 }
 
 .form-blanc h4 {
     margin-bottom: 0%;
     margin-top: 0%;
+    font-size: 1vw;
 }
 
 .h3-form {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 45px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3vw;
 }
 
 .form-blanc input {
-    height: 60px;
+    height: 5vh;
 }
 
 #submit {
-    width: 10vw;
+    width: auto;
     background-color: white;
-    font-size: large;
+    font-size: 1.5vw;
     font-weight: bolder;
+    padding: auto 5% auto 5%;
 }
 
 #submit:hover{
@@ -319,17 +356,27 @@ footer {
     padding-bottom: 15vh;
     background: url(../illustration/All_pages/back_footer.png);
     background-size: 100% 100%;
+    background-position: center;
 }
 
 #deco-footer{
+    width: 20vw;
+}
+
+
+
+.logo-sxm img{
+    width: 50%;
     position: absolute;
+    top: 10vw;
+    left: 5vw;
 }
 
 .saynaxmarvel {
+    position: relative;
+    margin-right: 10vw;
     width: 23.3vw;
-    height: 53vh;
-    /*background: url(../illustration/All_pages/footer1.png) no-repeat;
-    background-size: cover;*/
+    height: 53vh;  
 }
 
 
@@ -345,12 +392,16 @@ footer div {
 
 
 .footer-link ul {
+    font-family: Cantarell regular;
     display: flex;
     text-align: left;
 }
 
 .footer-link ul li {
     margin-right: 40px;
+}
+.social-footer h2,.media h2, .media{
+    font-family: Cantarell regular;
 }
 
 
